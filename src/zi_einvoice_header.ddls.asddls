@@ -173,6 +173,7 @@ define view entity ZI_EINVOICE_HEADER
       b3.tin                                     as SupplierTIN,
       b3.trade_license                           as SupplierLegalRegistrationID,
       b3.peppol_id                               as SupplierPeppolID,
+      b3.asp_provider                            as SupplierASPProvider,
       b3.asp_id                                  as SupplierASPID,
       b4.eipayment_method                        as SupplierPaymentMethod,
       b4.eipayment_method_name                   as SupplierPaymentMethodName,
